@@ -7,7 +7,21 @@
     Use a loop to iterate through the array and calculate the average age.*/ 
 
 
-let array = [3, 9, 23, 64, 2, 8, 28, 93]; 
+let ages = [3, 9, 23, 64, 2, 8, 28, 93]; 
+   let lengths =ages.map(fuction(element) {
+    return element.lengths;
+   }); 
+
+console.log(ages); 
+
+
+/* 1. Create an array called names that contains the following values: 'Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'.
+
+    Use a loop to iterate through the array and calculate the average number of letters per name.
+    Use a loop to iterate through the array again and concatenate all the names together, separated by spaces. */ 
+
+
+
 
 
 
