@@ -31,12 +31,20 @@ youngOld(ages)
 // Use a loop to iterate through the array and calculate the average number of letters per name. 
 // Use a loop to iterate through the array again and concatenate all the names together, separated by spaces.
 
- let names = ('Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob');  
+const names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];  
 
+let sum= 0;
 
+for (let i = 0; i < names.length; i++) {
+    sum += names[i].length; 
+    //this is where we find the amount of letters in the name array
 
-console.log(names);
+}
+average = sum / names.length;
 
+// this is where we find the average for the names.length
+
+console.log(average); 
 
 
 
