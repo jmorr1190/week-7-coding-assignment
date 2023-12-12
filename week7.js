@@ -46,6 +46,14 @@ average = sum / names.length;
 
 console.log(average); 
 
+const string = names.join(' ');
+
+console.log(string)
+
+//using the join method I was able to take names in the console and separte them. To have a space inbetween the names put a space inbetween the quotes in the (' ').
+
+
+
 
 
 
