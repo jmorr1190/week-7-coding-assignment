@@ -52,6 +52,22 @@ console.log(string)
 
 //using the join method I was able to take names in the console and separte them. To have a space inbetween the names put a space inbetween the quotes in the (' ').
 
+// 3. How do you access the last element of any array?
+
+//To access the last element of any array your code would have this in it myArray.length-1. By using the .length-1 you are able to access the last element 
+
+// 4. How to access the first element of any array?
+
+// In the above code to access the first ellement it would look something like this. 
+
+const firstElement = names.shift();
+
+console.log(firstElement); //give us Sam printed in the console log
+
+// 5. Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array. 
+
+let nameLengths =  
+
 
 
 
