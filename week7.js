@@ -31,7 +31,7 @@ youngOld(ages)
 // Use a loop to iterate through the array and calculate the average number of letters per name. 
 // Use a loop to iterate through the array again and concatenate all the names together, separated by spaces.
 
-const names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];  
+let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];  
 
 let sum= 0;
 
@@ -46,7 +46,7 @@ average = sum / names.length;
 
 console.log(average); 
 
-const string = names.join(' ');
+let string = names.join(' ');
 
 console.log(string)
 
@@ -60,18 +60,28 @@ console.log(string)
 
 // In the above code to access the first ellement it would look something like this. 
 
-const firstElement = names.shift();
+let firstElement = names.shift();
 
 console.log(firstElement); //give us Sam printed in the console log
 
 // 5. Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array. 
 
-let nameLengths =  
+const nameLengths = [];
 
+// Loop through each name and add its length to nameLengths array
+for (let i = 0; i < names.length; i++) {
+    const name = names[i];
+    const length = name.length;
+    nameLengths.push(length);
+// this is where we push the lenght of the name instead of the acctual name
+}
 
+console.log(nameLengths);
 
+// 6. Write a loop to iterate over the nameLengths array and calculate the sum of all the elements in the array. 
 
-
+ console.log(sum); // Did not need to rewrite this code since we wrote it on line 38. When I did write the loop again and asked for the sum I recieved double the sum because I was not using Const. This could pose a problem later on when working on longer projects with more code.
+ 
 
 
 
