@@ -83,10 +83,27 @@ console.log(nameLengths);
 
  //7. Write a function that takes two parameters, word and n, as arguments and returns the word concatenated to itself n number of times. (i.e. if I pass in 'Hello' and 3, I would expect the function to return 'HelloHelloHello').
 
+ let start = "Cats";
+ let repeat = 4;
+ let repeatedStart = "Cats";
+  
+ for (let i = 0; i < repeat-1; i++) {
+     repeatedStart += start;
+ }
+ console.log(repeatedStart);
  
+//8. Write a function that takes two parameters, firstName and lastName, and returns a full name. The full name should be the first and the last name separated by a space.
 
+function name (a, b); {
+    var a = "Jacklyn";
+    var b = "Orr";
+    var ab = a + b
+    return ("a" + "b");
+}
+console.log(return)
 
-
+    console.log(fullName)
+}
 
 
 
